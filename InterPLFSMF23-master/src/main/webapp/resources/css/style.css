@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+#fh5co-container {
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+}
+#fh5co-offcanvas, #fh5co-container, .fh5co-nav-toggle, #fh5co-footer {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#fh5co-container, .fh5co-nav-toggle, #fh5co-footer {
+  z-index: 2;
+  position: relative;
+}
+#fh5co-type > .fh5co-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+#fh5co-home .flexslider .fh5co-overlay {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .5;
+}
+#fh5co-events > .fh5co-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+#fh5co-container {
+  position: relative;
+  z-index: 10;
+}
+#fh5co-offcanvas, #fh5co-container, .fh5co-nav-toggle, #fh5co-footer {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#fh5co-container, .fh5co-nav-toggle, #fh5co-footer {
+  z-index: 2;
+  position: relative;
+}
+#fh5co-events {
+  padding: 7em 0;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+#fh5co-events > .container {
+  z-index: 10;
+  position: relative;
+}
+#fh5co-events .fh5co-heading .heading {
+  position: relative;
+  padding-top: 30px !important;
+}
+#fh5co-events .fh5co-heading .heading:before, #fh5co-events .fh5co-heading .heading::before {
+  height: 64px;
+  width: 49px;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -24px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-events {
+    padding: 5em 0;
+  }
+}
+#fh5co-events .fh5co-event {
+  background: #fff;
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+#fh5co-events .fh5co-event:before {
+  border: 2px solid #e6e6e6;
+  content: "";
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  right: 15px;
+  left: 15px;
+  z-index: 0;
+}
+#fh5co-events .fh5co-event h3, #fh5co-events .fh5co-event .fh5co-event-meta, #fh5co-events .fh5co-event p, #fh5co-events .fh5co-event .btn {
+  position: relative;
+  z-index: 2;
+}
+#fh5co-events .fh5co-event h3 {
+  padding: 0;
+  margin: 0;
+}
+#fh5co-events .fh5co-event .fh5co-event-meta {
+  margin-bottom: 20px;
+  display: block;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#fh5co-events .fh5co-event p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+#fh5co-events .fh5co-event p:last-child {
+  margin-bottom: 0;
+}
+#fh5co-events .fh5co-event .btn {
+  margin-bottom: 0;
+}
